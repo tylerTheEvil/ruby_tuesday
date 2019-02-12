@@ -31,7 +31,7 @@ left to deal with, and you should also write tests for each and every method, be
 
 There are two different ways to remove this duplication:
 
-* First is called Dynamic Methods. 
-* The other is a special method called method_missing.
+* First is called Dynamic Methods using `send` method: https://apidock.com/ruby/Object/send 
+* The other is a special method called `method_missing`: https://ruby-doc.org/core-2.1.0/BasicObject.html#method-i-method_missing
 
-Refactor the `computer.rb` twice to use both of the above methods. Argue which one is better.
+Refactor the `computer.rb` twice to use both of the above methods. Argue which one is a better solution.

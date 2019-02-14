@@ -29,9 +29,4 @@ https://github.com/mani47/ruby_tuesday/blob/master/computer.rb
 At this point in the development of Computer, you find yourself bogged down in a swampland of repetitive copy and paste. You have a long list of methods
 left to deal with, and you should also write tests for each and every method, because it’s easy to make mistakes in duplicated code.
 
-There are two different ways to remove this duplication:
-
-* First is called Dynamic Methods using `send` method: https://apidock.com/ruby/Object/send 
-* The other is a special method called `method_missing`: https://ruby-doc.org/core-2.1.0/BasicObject.html#method-i-method_missing
-
-Refactor the `computer.rb` twice to use both of the above methods. Argue which one is a better solution.
+There are two different ways to remove this duplication. Give it a try without any hint first and ask us for a hint if you think it's confusing!
